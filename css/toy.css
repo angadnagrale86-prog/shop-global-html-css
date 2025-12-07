@@ -224,4 +224,8 @@
      transform: scale(1.05);
  }
 
+  .button-buyy {
+     text-decoration: none;
+     color: white;
+ }
  @media (max-width: 768px) {}
