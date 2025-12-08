@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 80px auto;
+    background: #fff;
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* Left Section */
+.left-section {
+    flex: 55%;
+    padding: 20px;
+}
+
+.left-section h1 {
+    color: #0C2B4E;
+    font-size: 30px;
+}
+
+.left-section p {
+    color: #555;
+    margin-top: 10px;
+}
+
+.Feedback-img img {
+    width: 100%;
+    max-width: 320px;
+    margin-top: 20px;
+}
+
+/* Right Section */
+.right-section {
+    flex: 40%;
+    background: #1D546C;
+    padding: 30px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.right-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form */
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+}
+
+form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #0C2B4E;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #093147;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
