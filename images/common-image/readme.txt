@@ -1,5 +1,4 @@
-
-# <img src="./images/common-image/main-logo.png" width="28" height="30" style="border-radius:50%; border:1px solid white;"> Shop-Global-html-css 
+# <img src="./images/common-image/main-logo.png" width="28" height="30" style="border-radius:50%; border:1px solid white;"> Shop Global — Static Frontend Prototype
 
 Shop Global is a modern, user-friendly online shopping website offering a wide range of categories such as Fashion, Kids & Toys, Electronics, Jewellery, Cosmetics, and Grocery.
 This project focuses on providing a clean UI, smooth navigation, and a simple yet attractive shopping experience.
@@ -11,7 +10,8 @@ This project focuses on providing a clean UI, smooth navigation, and a simple ye
 
 📁 **project-folder/**  
 ├─ 📄 `index.html`  
-├─ 📄 `style.css`  
+├─ 📁 `css` 
+├─ 📁 `pages`
 ├─ 📁 `images/`  
 │  ├─ 📁 `folders/`  
 │  ├─ 🖼️ `fashion.png`  
@@ -20,8 +20,8 @@ This project focuses on providing a clean UI, smooth navigation, and a simple ye
 │  ├─ 🖼️ `jewellery.png`  
 │  ├─ 🖼️ `cosmetics.png`  
 │  ├─ 🖼️ `grocery.png`  
-│  ├─ 🖼️ `banner.jpg`  
-│  └─ 🖼️ `logo.png`  
+│  ├─ 🖼️ `common-images`  
+│  
 
 ## Features
 - Wide range of categories including Fashion, Electronics, Toys, Jewellery, Cosmetics, and Grocery.
@@ -39,14 +39,14 @@ This project focuses on providing a clean UI, smooth navigation, and a simple ye
 ## How to run
 
 ### Hosting link
-- https://shop-global.netlify.app/
+- https://shop-global.vercel.app/
 
 ### github link
 - https://github.com/SejalPhalak/shop-global-html-css.git
 
 ##  Contributors
 
-- Sejal Phalak. (index.html, fashion.html,signup.html,help.html)
+- Sejal Palak. (index.html, fashion.html,signup.html,help.html)
 - Vaibhav Warade. (grocery.html)
 - Pranali Shinde. (jwellery.html)
 - Diksha Pande. (kid.html)

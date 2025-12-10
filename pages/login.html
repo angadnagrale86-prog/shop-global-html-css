@@ -21,6 +21,8 @@
         </div>
         <div class="navbar-links-container">
             <span><a href="./../index.html" class="nav-links-text">Home</a></span>
+            <span><a href="./../pages/about.html" class="nav-links-text">About</a></span>
+
             <span><a href="./../pages/fashion.html" class="nav-links-text">Fashion</a></span>
             <span><a href="./../pages/toy.html" class="nav-links-text">kids & Toy</a></span>
             <span><a href="./../pages/electronics.html" class="nav-links-text">Electronics</a></span>
@@ -40,7 +42,7 @@
                 <span>|</span>
                 <a href="./signUp.html" class="top-link">Sign up</a>
                 <span>|</span>
-                <a href="./login.html" class="top-link">Login</a>
+                <a href="./login.html" class="top-link"><b style="border: 1px solid white;padding: 5px;">Login</b></a>
             </div>
         </div>
     </div>
@@ -59,25 +61,40 @@
         </div>
 
         <div class="right-section">
+
             <h2 style="color: #fff;">USER LOGIN</h2>
 
-            <div class="form-group">
-                <input type="text" id="name" placeholder="Username" required>
-            </div>
+            <form action="#" method="post">
 
-            <div class="form-group" style="margin-bottom: 20px;">
-                <input type="password" placeholder="Password" required>
-            </div>
+                <div class="form-group">
+                    <input type="text" id="username" name="username" placeholder="Username" required minlength="3">
+                </div>
 
-            <a href="./login.html" class="login-btn "
-                style="color: #fff; padding: 10px 60px; text-decoration: none;">Login</a><br>
-            <p> <a href="#" class="forgot" style="color: #fff;">Forgot your password?</a></p>
-            <p style="color: #f1efef;"> <a href="./signUp.html" class="login-btn "
-                    style="color: #fff; padding: 10px 50px; text-decoration: none;">Sign Up</a><br><br>Don't have an
-                account?</p>
+                <div class="form-group" style="margin-bottom: 20px;">
+                    <input type="password" id="password" name="password" placeholder="Password" required minlength="6">
+                </div>
 
+                <div style="margin: 8px 10px;">
+                    <p> <button type="submit"
+                            style="background-color: #0C2B4E; padding: 12px 60px; color: #fff; cursor: pointer; border-radius: 8px; border: none;"><a
+                                href="./../index.html" style="text-decoration: none; color: #fff;">Login</a></button>
+                    </p>
+                </div>
+                <p>
+                    <a href="#" class="forgot" style="color: #fff;">Forgot your password?</a>
+                </p>
+
+                <a href="./signUp.html" class="login-btn"
+                    style="color: #fff; padding: 10px 50px; text-decoration: none;">
+                    Sign Up
+                </a>
+
+                <p style="color: #f1efef;">
+                    Don't have an account?<br>
+                </p>
+
+            </form>
         </div>
-    </div>
     </div>
 
     <footer>
@@ -102,12 +119,15 @@
                     Quick Links
                 </span>
                 <ul>
-                    <li><a href="./../index.html">Fashion</a></li>
-                    <li><a href="./../pages/toy.html">kids & Toy </a></li>
-                    <li><a href="./../pages/electronics.html">Electronics</a></li>
-                    <li><a href="./../pages/jewellery.html">Jewellery</a></li>
-                    <li><a href="./../pages/cosmetics.html">Cosmetics</a></li>
-                    <li><a href="./../pages/grocery.html">Grocery</a></li>
+                    <li><a href="./../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./fashion.html">Fashion</a></li>
+                    <li><a href="./toy.html">kids & Toy </a></li>
+                    <li><a href="./electronics.html">Electronics</a></li>
+                    <li><a href="./jewellery.html">Jewellery</a></li>
+                    <li><a href="./cosmetics.html">Cosmetics</a></li>
+                    <li><a href="./grocery.html">Grocery</a></li>
+                    <li><a href="./Help.html">Help</a></li>
                 </ul>
             </div>
 
